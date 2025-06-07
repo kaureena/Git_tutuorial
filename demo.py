@@ -11,18 +11,18 @@
 # #     c = a - b
 # # print(c)
 
-# a = "5"
-# b = "4"
-# c = a + b
-# print(c)
-# x = [1, 2, 3]
-# print(x[:-1])
-# a = 28
-# b = '22'
-# print(int(b) + int(a))
-# num = 1234
-# rev = str(num)[::1]
-# print(rev)
+a = "5"
+b = 4
+c = a + str(b)
+print(c)
+x = [1, 2, 3]
+print(x[:-1])
+a = 28
+b = '22'
+print(int(b) + int(a))
+num = 1234
+rev = str(num)[::1]
+print(rev)
 def func(x):
     return x * 2
 y=3
