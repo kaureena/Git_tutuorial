@@ -27,3 +27,5 @@ def func(x):
     return x * 2
 y=3
 print(func(y))
+
+print('three version')
